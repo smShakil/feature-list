@@ -1,5 +1,6 @@
 # feature-list
 This is a great plugin for showing your product features dynamically.
+<<<<<<< HEAD
 
 ## Getting Started
 
@@ -84,3 +85,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone who's code was used
 * Inspiration
 * etc
+=======
+>>>>>>> b44e11a7c80e4837eb5a83f9d0d069263fee7d38
