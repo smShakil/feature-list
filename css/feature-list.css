@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+
+.featureList{
+  max-width: 370px;
+  margin: 20px auto 0;
+  position: relative;
+}
+.featureList .deviceImg{
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.featureIcon:nth-of-type(1){
+  top: 15%;
+  left: 18%;
+}
+.featureIcon:nth-of-type(2){
+  top: 40%;
+  left: 18%;
+}
+.featureIcon:nth-of-type(3){
+  top: 65%;
+  left: 18%;
+}
+.featureIcon:nth-of-type(4){
+  top: 15%;
+  right: 18%;
+}
+.featureIcon:nth-of-type(5){
+  top: 40%;
+  right: 18%;
+}
+.featureIcon:nth-of-type(6){
+  top: 65%;
+  right: 18%;
+}
+.activeFeatureIcon{
+  background: rgba(27, 204, 144, 0.8) !important;
+  color: #ddd !important;
+  transform: scale3d(1.2,1.2,2)
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .featureList{
+    padding: 190px 0;
+    margin: -70px auto;
+  }
+  .featureList .deviceImg{
+    display: none;
+  }
+  .featureList .featureIcon{
+    font-size: 70px;
+  }
+  .featureIcon:nth-of-type(1) {
+    top: 28%;
+    left: 0;
+  }
+  .featureIcon:nth-of-type(2) {
+    top: 60%;
+    left: 0;
+  }
+  .featureIcon:nth-of-type(3) {
+    top: 28%;
+    left: 38%;
+  }
+  .featureIcon:nth-of-type(4) {
+    top: 60%;
+    right: 35%;
+  }
+  .featureIcon:nth-of-type(5) {
+    top: 28%;
+    right: 0;
+  }
+  .featureIcon:nth-of-type(6) {
+    top: 60%;
+    right: 0;
+  }

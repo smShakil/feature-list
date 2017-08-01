@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feature-List</title>
+  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="icofont/css/icofont.css">
+  <link rel="stylesheet" href="css/feature-list.css">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      outline: none;
+    }
+
+    html {
+      overflow-x: hidden;
+    }
+
+    html, html a {
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    body {
+      font-family: monospace, sans-serif;
+      font-size: 15px;
+      color: #212121;
+      overflow: hidden;
+      line-height: 22px;
+      overflow-x: hidden;
+    }
+    
+    .featureDetails{
+      margin-top: 30%;
+      display: none;
+      transition: all ease-out 0.3s;
+    }
+    .featureDetails i{
+      font-size: 80px;
+      color: #616161
+    }
+    .featureDetails h2{
+      font-size: 40px;
+    }
+    .featureDetails p{
+      font-size: 18px;
+      font-weight: 300;
+      color: #616161
+    }
+    .featureDetails.activeDetails{
+      display: block !important;
+    }
+    
+    @media only screen and (max-width: 767px) {
+      .featureDetails {
+        margin-top: 10%;
+        text-align: center;
+        border: 1px solid #ddd;
+        padding: 10px;
+      }
+      .featureDetails i{
+        display: none;
+      }
+      .featureDetails h2{
+        font-size: 30px;
+      }
+      .featureDetails p{
+        font-size: 16px;
+        line-height: inherit;
+      }
+    }
+    
+                                                                                                                                                                                                                                                                                                                                                                                                            
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="featureList">
+          <img src="images/tabFrame.png" class="img-responsive center-block deviceImg" alt="Tab">
+
+          <i class="icofont icofont-hat-alt featureIcon activeFeatureIcon"></i>
+          <i class="icofont icofont-trophy-alt featureIcon"></i>
+          <i class="icofont icofont-newspaper featureIcon"></i>
+          <i class="icofont icofont-book featureIcon"></i>
+          <i class="icofont icofont-users-social featureIcon"></i>
+          <i class="icofont icofont-ui-play featureIcon"></i>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="featureDetails activeDetails">
+          <i class="icofont icofont-hat-alt"></i>
+          <h2>Vision</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quae voluptatibus consequuntur voluptas debitis excepturi inventore, cum velit laboriosam, veniam et sapiente natus dolores! Quisquam architecto, iusto soluta hic? Beatae.
+          </p>
+        </div>
+        <div class="featureDetails">
+          <i class="icofont icofont-trophy-alt"></i>
+          <h2>Contest</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel adipisci modi a ipsum autem, voluptas dicta molestiae numquam eius voluptates libero, minus! Excepturi libero quidem corporis ullam nihil est perferendis.
+          </p>
+        </div>
+        <div class="featureDetails">
+          <i class="icofont icofont-newspaper"></i>
+          <h2>News</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis cupiditate dicta laboriosam veniam dolor animi saepe facilis debitis dolores ea voluptatem adipisci, suscipit expedita nemo neque non consequatur maiores! Cumque.
+          </p>
+        </div>
+        <div class="featureDetails">
+          <i class="icofont icofont-book"></i>
+          <h2>Exam</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, commodi dolorum impedit amet neque numquam porro architecto quae repudiandae hic, temporibus eius dolores sint eveniet fuga doloremque ducimus rerum omnis.
+          </p>
+        </div>
+        <div class="featureDetails">
+          <i class="icofont icofont-users-social"></i>
+          <h2>Forum</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo cupiditate perspiciatis veritatis rerum ratione velit iste, dicta tempore aliquam inventore. Laboriosam quia veritatis voluptatibus quasi qui eos et repellendus rem.
+          </p>
+        </div>
+        <div class="featureDetails">
+          <i class="icofont icofont-ui-play"></i>
+          <h2>e-Learning</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo eveniet similique explicabo dolore, maiores tempore impedit recusandae assumenda officiis quasi. Temporibus, nemo nulla earum iure commodi quaerat minima minus illum.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- Scripts -->
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/feature-list.js"></script>
+	
+	<script>
+    
+    $('.featureList').featureList({
+      iconBackground: "rgba(0,0,0,0.1)",
+      speed: 3000
+    });
+    
+  </script>
+	
+</body>
+</html>
