@@ -39,6 +39,9 @@
   color: #ddd !important;
   transform: scale3d(1.2,1.2,2)
 }
+.featureDetails.activeDetails{
+  display: block !important;
+}
 
 
 

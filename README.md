@@ -13,7 +13,7 @@ Feature-List depends on `jQuery`.
 ```
 // css styles
 
-<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">  // This is optional. Use only for better grid and responsiveness.
 <link rel="stylesheet" href="css/icofont.min.css">   // We have used icofont as our default icon set. You may like to use 'fontawesome' or other.
 <link rel="stylesheet" href="css/feature-list.css">
 
@@ -21,7 +21,7 @@ Feature-List depends on `jQuery`.
 
 <script src="js/jquery-2.2.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>  // This is optional. Use only for better grid and responsiveness.
-<script src="js/feature-list.js"></script>
+<script src="js/feature-list.min.js"></script>
 ```
 
 ### HTML Markup
@@ -30,7 +30,7 @@ Feature-List depends on `jQuery`.
 <div class="featureList">
   <img src="images/tabFrame.png" class="deviceImg" alt="Tab">
   
-    <!-- use you preferred icon set -->
+    <!-- use your preferred icon set -->
     
   <i class="icofont icofont-hat-alt featureIcon activeFeatureIcon"></i>
   <i class="icofont icofont-trophy-alt featureIcon"></i>

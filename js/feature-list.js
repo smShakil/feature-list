@@ -20,7 +20,7 @@
       borderRadius: '3px',
       cursor: 'pointer',
       transition: 'all ease-out 0.3s'
-    })
+    });
     
     var hovering = false;
     $(".featureIcon").mouseenter(function(){
@@ -32,11 +32,11 @@
       featureDetails.eq(index).addClass("activeDetails");
 
       hovering = !hovering;
-    })
+    });
 
     $(".featureIcon").mouseleave(function(){
       hovering = !hovering;
-    })
+    });
 
     setInterval(function(){
       if(hovering == false){
