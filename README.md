@@ -3,7 +3,7 @@ This is a great plugin for showing your product features dynamically.
 
 ## Getting Started
 
-You need to call `featureList()` on an container element you like to intialize the plugin.
+You need to call `featureList()` on an container element, with any selector, you like to intialize the plugin.
 View [Demo](https://smshakil.github.io/feature-list/)
 
 ### Prerequisites
@@ -39,17 +39,13 @@ Feature-List depends on `jQuery`.
 ```
 ```
 <div class="featureDetails activeDetails">
-  <i class="icofont icofont-hat-alt"></i>
-  <h2>Vision</h2>
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quae voluptatibus consequuntur voluptas debitis excepturi inventore, cum velit laboriosam, veniam et sapiente natus dolores! Quisquam architecto, iusto soluta hic? Beatae.
+    Any element you want to show- Image, Text, Icon etc.
   </p>
 </div>
 <div class="featureDetails">
-  <i class="icofont icofont-trophy-alt"></i>
-  <h2>Contest</h2>
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel adipisci modi a ipsum autem, voluptas dicta molestiae numquam eius voluptates libero, minus! Excepturi libero quidem corporis ullam nihil est perferendis.
+    Just style it in your own way.
   </p>
 </div>
 ..................
