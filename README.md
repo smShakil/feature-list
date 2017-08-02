@@ -4,7 +4,12 @@ This is a great plugin for showing your product features dynamically.
 ## Getting Started
 
 You need to call `featureList()` on an container element, with any selector, you like to intialize the plugin.
+
 View [Demo](https://smshakil.github.io/feature-list/)
+
+#### npm installation
+
+$ npm install feature-list
 
 ### Prerequisites
 
@@ -58,7 +63,7 @@ Upto six icons and details are styled. If you want to use more or less, style it
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+A step by step series of examples that tell you How to Install
 
 Simple installation
 

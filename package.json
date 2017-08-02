@@ -1,0 +1,40 @@
+{
+  "name": "feature-list",
+  "version": "1.0.0",
+  "description": "A great plugin for displaying your product features dynamically and in a smart way.",
+  "keywords": [
+    "jquery-plugins",
+    "jquery",
+    "feature-list",
+    "features",
+    "list-carousel",
+    "text-carousel"
+  ],
+  "ecosystem": "jquery",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smShakil/feature-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smShakil/feature-list/issues"
+  },
+  "author": {
+    "name": "S.M. Shakil",
+    "email": "smshakil.kuet@gmail.com",
+    "url": "https://github.com/smShakil"
+  },
+  "homepage": "https://smshakil.github.io/feature-list",
+  "contributors": [
+    {
+      "name": "S.M. Shakil",
+      "email": "smshakil.kuet@gmail.com",
+      "url": "https://github.com/smShakil"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">=1.5.1"
+  },
+  "docs": "https://github.com/smShakil/feature-list/blob/master/README.md",
+  "download": "https://github.com/smShakil/feature-list/archive/master.zip"
+}
