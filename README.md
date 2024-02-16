@@ -7,10 +7,14 @@ You need to call `featureList()` on an container element, with any selector, you
 
 View [Demo](https://smshakil.github.io/feature-list/)
 
-### npm installation
+### Installation
 
 ```
+// with npm
 $ npm install feature-list
+
+// with yarn
+$ yarn add feature-list
 ```
 
 ### Prerequisites
